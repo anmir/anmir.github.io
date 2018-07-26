@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Hello
+layout: page
+title: simple site
 ---
 
-Hello!
+что происходит?
