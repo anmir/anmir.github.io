@@ -1,5 +1,6 @@
 ---
-1
+layout: default
+title: Hello
 ---
 
 Hello!
