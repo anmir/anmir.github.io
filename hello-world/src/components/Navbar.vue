@@ -37,10 +37,12 @@ export default {
       blogName: "Programmer's notes",
       drawer: false,
       items: [
+        { title: "Presentation", icon: null, links: "/" },
+        { title: "Indexer", icon: null, links: "/indexer" },
+        { title: "Articles", icon: null, links: "/articles" },
         { title: "Docker", icon: null, links: "/docker" },
         { title: "Git", icon: null, links: "/git" },
-        { title: "Database", icon: null, links: "/db" },
-        { title: "Articles", icon: null, links: "/articles" }
+        { title: "Database", icon: null, links: "/db" }
       ]
     };
   }

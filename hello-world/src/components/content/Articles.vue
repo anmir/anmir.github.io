@@ -43,12 +43,39 @@
 </template>
 
 <script>
-export default {    
+export default {
   data() {
     return {
       articles: [
         {
           title: "oasis",
+          url: null,
+          description: "description",
+          source: {
+            name: "sourceName"
+          },
+          urlToImage: null
+        },
+        {
+          title: "oasis2",
+          url: null,
+          description: "description",
+          source: {
+            name: "sourceName"
+          },
+          urlToImage: null
+        },
+        {
+          title: "oasis3",
+          url: null,
+          description: "description",
+          source: {
+            name: "sourceName"
+          },
+          urlToImage: null
+        },
+        {
+          title: "oasis4",
           url: null,
           description: "description",
           source: {
