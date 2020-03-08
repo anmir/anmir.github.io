@@ -1,13 +1,15 @@
 <template>
   <v-app>
-    <Navbar></Navbar>
+    <Navbar/>
+    <Maincontent/>
   </v-app>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar";
+import Maincontent from "@/components/Maincontent";
 
 export default {
-  components: { Navbar }
+  components: { Navbar, Maincontent }
 };
 </script>
