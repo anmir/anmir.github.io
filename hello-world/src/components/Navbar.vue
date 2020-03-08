@@ -5,11 +5,11 @@
       <v-toolbar-title>{{ blogName }}</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
-    <v-navigation-drawer app v-model="drawer">
+    <v-navigation-drawer app v-model="drawer" temporary>
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">{{ blogName }}</v-list-item-title>
-          <v-list-item-subtitle>категории</v-list-item-subtitle>
+          <v-list-item-subtitle>categories</v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
 
@@ -17,7 +17,7 @@
 
       <v-list dense nav>
         <v-list-item v-for="item in items" :key="item.title" router :to="item.links">
-          <v-list-item-icon v-if="item.icon" >
+          <v-list-item-icon v-if="item.icon">
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
@@ -37,10 +37,9 @@ export default {
       blogName: "Programmer's notes",
       drawer: false,
       items: [
-        { title: "Docker", icon: null, links: "/comp1" },
-        { title: "Git", icon: null },
-        { title: "Database", icon: null },
-        { title: "Persistent", icon: null }        
+        { title: "Docker", icon: null, links: "/docker" },
+        { title: "Git", icon: null, links: "/git" },
+        { title: "Database", icon: null, links: "/db" }
       ]
     };
   }

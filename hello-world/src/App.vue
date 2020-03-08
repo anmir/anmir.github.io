@@ -4,8 +4,7 @@
     <Maincontent/>
     <v-content>
       <router-view></router-view>
-    </v-content>
-    
+    </v-content>    
   </v-app>
 </template>
 
