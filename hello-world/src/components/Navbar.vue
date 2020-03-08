@@ -39,7 +39,8 @@ export default {
       items: [
         { title: "Docker", icon: null, links: "/docker" },
         { title: "Git", icon: null, links: "/git" },
-        { title: "Database", icon: null, links: "/db" }
+        { title: "Database", icon: null, links: "/db" },
+        { title: "Articles", icon: null, links: "/articles" }
       ]
     };
   }

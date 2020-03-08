@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Docker from '../components/content/Docker'
 import Git from '../components/content/Git'
 import Database from '../components/content/Database'
+import Articles from '../components/Articles'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
             path: '/db',
             name: 'database',
             component: Database
+        },
+        {
+            path: '/articles',
+            name: 'articles',
+            component: Articles
         }
     ]
 })
